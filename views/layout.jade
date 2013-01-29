@@ -1,0 +1,21 @@
+!!!5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    
+  body
+    header
+      nav
+        ul
+          li.navigation
+            a(href="https://foursquare.com/oauth2/authenticate?client_id=NDON5OK1I2UGPQ1NHZZIW2HWE1WDVLU30U5F32LAC4YKS5P2&response_type=code&redirect_uri=http://web1.tunnlr.com:12101/auth") Login 
+          li.navigation 
+            a(href="/") Home
+          li.navigation 
+            a(href="/auth") Popular 
+          li.navigation 
+            a(href="/contact") Feed
+    section#wrapper!= body
+  
+  
